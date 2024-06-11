@@ -1,0 +1,9 @@
+.root_daum_roughmap .wrap_btn_zoom .btn_zoom_in .img_zoom {
+    background-position: -80px -5px;
+}
+.root_daum_roughmap .wrap_btn_zoom .btn_zoom_out .img_zoom {
+    background-position: -80px -45px;
+}
+.root_daum_roughmap .wrap_btn_zoom .btn_zoom_reset .img_zoom {
+    background-position: -80px -90px;
+}

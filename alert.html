@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영통도서관 이용안내</title>
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <!-- 5버전 -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+
+    <!-- 6버전 -->
+    <script src="https://kit.fontawesome.com/b51af6ee40.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="./css/using.css">
+
+    <link rel="stylesheet" href="./css/webfont.css">
+    <link rel="stylesheet" href="./css/weather-icons.min.css">
+
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.easing.1.3.min.js"></script>
+    <script type="text/javascript" src="./js/script1.js"></script>
+    <script type="text/javascript" src="./js/script2.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <div id="topMenu">
+            <ul>
+                <li>
+                    <a href="#">홈</a>
+                </li>
+                <li>
+                    <a href="./login.html">로그인</a>
+                </li>
+                <li>
+                    <a href="./join.html">회원가입</a>
+                </li>
+                <li><a href="#">온라인정회원신청</a>
+                </li>
+                <li>
+                    <a href="#">사이트맵</a>
+                </li>
+            </ul>
+        </div>
+        <h1 onclick="location.href='./index.html'">영통도서관</h1>
+
+
+
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="./using.html">이용안내</a>
+                    <ul>
+                        <li><a href="">이용시간안내</a></li>
+                        <li><a href="">열람실이용</a></li>
+                        <li><a href="">대출회원가입</a></li>
+                        <li><a href="">전자도서관</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./reserve.html">통합예약/신청</a>
+                    <ul>
+                        <li><a href="">독서문화프로그램</a></li>
+                        <li><a href="">푸른숲책뜰</a></li>
+                        <li><a href="">도서관체험교실</a></li>
+                        <li><a href="">디지털자료실PC예약</a></li>
+                        <li><a href="">열람실좌석현황</a></li>
+                        <li><a href="">자원봉사신청</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./together.html">참여마당</a>
+                    <ul>
+                        <li><a href="">도서관에 물어보세요</a></li>
+                        <li><a href="">동아리커뮤니티</a></li>
+                        <li><a href="">칭찬합니다 </a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./alert.html">도서관 소식</a>
+                    <ul>
+                        <li><a href="">공지사항</a></li>
+                        <li><a href="">공개자료실</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./info.html">도서관 소개</a>
+                    <ul>
+                        <li><a href="">연혁</a></li>
+                        <li><a href="">행정서비스현장</a></li>
+                        <li><a href="">조직도</a></li>
+                        <li><a href="">현황안내</a></li>
+                        <li><a href="">상징물</a></li>
+                        <li><a href="">오시는길</a></li>
+                        <li><a href="">특화자료</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+        <div class="sub_shadow"></div>
+    </header>
+    <section class="useSec01">
+        <p class="section_Title">도서관 소식</p>
+
+    </section>
+    <section>
+        <aside>
+            <div id="remote">
+                <img src="./images/lnb_bg.png" alt="">
+                <div class="lnbTitle">
+                    <span>도서관 소식</span>
+                </div>
+                <div class="remote_wrap">
+                    <ul id="lnb">
+                        <li class="th2"><a href="#" target='_self' class='link_2th_ov'><span>공지사항</span></a>
+                        </li>
+                        <li class="th2"><a href="#" target='_self' class='link_2th'><span>공개자료실</span></a>
+                        </li>
+                    </ul>
+        </aside>
+        <article>
+            <span class="fl content-Title">도서관 소식</span>
+            <div id="location" class="title_wrap">
+
+                <div class="utile_wrap">
+
+                    <ul class="location_wrap">
+                        <li class="navi_home"><a href="./index.html">Home</a></li>
+                        <li><a href='#'>도서관 소식 </a></li>
+                        <li class="last on"><a href="#toggle"> 공지사항 </a></li>
+
+                    </ul>
+
+                    <ul class="print_wrap setting-box__group">
+                        <li id="sns_layout" class="n2 sns">
+                            <button data-target="ui-open" class="ir-tmpl">SNS공유</button>
+                            <div class="sns_wrap" data-id="ui-open">
+                                <button data-target="ui-close" class="sns-close">닫기</button>
+                                <button class="fa ir-tmpl" data-button="sns_share" data-service="facebook"
+                                    data-title="페이스북 SNS공유" title="페이스북 공유하기, 새창열림">페이스북</button>
+                                <button class="tw ir-tmpl" data-button="sns_share" data-service="twitter"
+                                    data-title="트위터 SNS공유" title="트위터 공유하기, 새창열림">트위터</button>
+                            </div>
+                        </li>
+                        <!-- <li class="n3 copy"><button onclick="CopyUrl(); return false;" class="copy ir-tmpl">복사하기</button></li> -->
+                        <li class="n1 print" id="print"><button data-print="print" class="ir-tmpl">프린트</button></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="using_content">
+                <img class="fl" src="./images/clock3d.png" width="200" alt="시계">
+
+            </div>
+        </article>
+    </section>
+    <footer id="footer_outer">
+        <div class="footer">
+
+            <ul class="foot_link">
+                <li><a href="#">도서관연혁</a></li>
+                <li><a href="#" target="_blank" title="새창"><span class="fbtn_ylib">개인정보처리방침</span></a></li>
+                <li><a href="#" class="last">홈페이지 이용약관</a></li>
+            </ul>
+            <div class="foot_logo"><img src="./images/foot_logo.gif" alt="사람이 반갑습니다. 휴먼시티 수원" /></div>
+            <div class="foot_add">
+                <address>
+                    [16703] 경기도 수원시 영통구 청명로 151(영통동) <br />
+                    전화 : 031-228-4758 / 1899-3300 팩스 : 031-369-2053
+                </address>
+                <p>Copyright by 수원시 도서관사업소 All Right Reserved.</p>
+            </div>
+
+            <!--//관련사이트바로가기-->
+
+            <div id="selectbox">
+                <div id="select_depart004">
+                    <!--//#select_box Start-->
+                    <h2><a href="#selectbox_depart004" onclick="displayOn('selectbox_depart004'); return false;">도서관
+                            바로가기</a></h2>
+
+                    <!--//#select_box End-->
+                </div>
+            </div>
+
+
+            <!-- 방문자 start -->
+            <div class="visitor cb fr">
+                <h2 class="skip">방문자</h2>
+                <dl class="todayV">
+                    <dt>&nbsp;오늘</dt>
+                    <dd>347</dd>
+                </dl>
+                <dl class="total">
+                    <dt>&nbsp;전체</dt>
+                    <dd>3,546,210</dd>
+                </dl>
+            </div>
+            <!-- 방문자 end -->
+
+        </div>
+    </footer>
+</body>
+
+</html>
